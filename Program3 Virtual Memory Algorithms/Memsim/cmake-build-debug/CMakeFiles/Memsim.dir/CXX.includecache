@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Chase Brown/ClionProjects/Memsim/main.cpp
+iostream
+-
+memexceptions.h
+/cygdrive/c/Users/Chase Brown/ClionProjects/Memsim/memexceptions.h
+memsim.h
+/cygdrive/c/Users/Chase Brown/ClionProjects/Memsim/memsim.h
+
+/cygdrive/c/Users/Chase Brown/ClionProjects/Memsim/memexceptions.h
+exception
+-
+iostream
+-
+
+/cygdrive/c/Users/Chase Brown/ClionProjects/Memsim/memsim.h
+iostream
+-
+fstream
+-
+exception
+-
+utility
+-
+iomanip
+-
+vector
+-
+cctype
+-
+memexceptions.h
+/cygdrive/c/Users/Chase Brown/ClionProjects/Memsim/memexceptions.h
+

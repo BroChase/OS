@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Chase Brown/ClionProjects/disksim/diskexceptions.h
+exception
+-
+iostream
+-
+
+/cygdrive/c/Users/Chase Brown/ClionProjects/disksim/disksim.h
+iostream
+-
+fstream
+-
+exception
+-
+algorithm
+-
+utility
+-
+iomanip
+-
+vector
+-
+queue
+-
+stack
+-
+diskexceptions.h
+/cygdrive/c/Users/Chase Brown/ClionProjects/disksim/diskexceptions.h
+
+/cygdrive/c/Users/Chase Brown/ClionProjects/disksim/main.cpp
+iostream
+-
+diskexceptions.h
+/cygdrive/c/Users/Chase Brown/ClionProjects/disksim/diskexceptions.h
+disksim.h
+/cygdrive/c/Users/Chase Brown/ClionProjects/disksim/disksim.h
+

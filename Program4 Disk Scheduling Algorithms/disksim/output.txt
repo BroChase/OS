@@ -1,0 +1,31 @@
+===============================================================
+[FCFS] Disk Scheduling Algorithm Simulation
+Current disk head position 53 and is moving Up
+===============================================================
+[53->98] [98->183] [183->37] [37->122] [122->14] [14->124] 
+[124->65] [65->67] 
+Total number of cylinder movements: 640
+
+===============================================================
+[SSTF] Disk Scheduling Algorithm Simulation
+Current disk head position 53 and is moving Up
+===============================================================
+[53->65] [65->67] [67->37] [37->14] [14->98] [98->122] 
+[122->124] [124->183] 
+Total number of cylinder movements: 236
+
+===============================================================
+[SCAN] Disk Scheduling Algorithm Simulation
+Current disk head position 53 and is moving Up
+===============================================================
+[53->65] [65->67] [67->98] [98->122] [122->124] [124->183] 
+[183->199] [199->37] [37->14] 
+Total number of cylinder movements: 331
+
+===============================================================
+[C-LOOK] Disk Scheduling Algorithm Simulation
+Current disk head position 53 and is moving Up
+===============================================================
+[53->65] [65->67] [67->98] [98->122] [122->124] [124->183] 
+[183->14] [14->37] 
+Total number of cylinder movements: 322
